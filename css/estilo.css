@@ -1,0 +1,279 @@
+/* CSS General*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h3{
+    color:#999
+}
+
+i{
+    font-size: 20px;
+    
+}
+
+nav{
+    position: fixed;
+    background-color: #333;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align: center;
+    width:100%;
+    height: 40px;
+}
+
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li{
+    padding-top: 12px;
+}
+
+
+a:any-link{
+    color: #fff;
+}
+
+:-webkit-any-link {
+    color: #fff;
+}
+
+:-moz-any-link {
+    color: #fff;
+}
+
+section{
+    padding: 10px 100px 10px 100px;
+}
+
+li{
+    float: left;
+    margin-right: 8px;
+}
+
+a{
+    text-decoration-line:none;
+}
+
+a:hover{
+    color:#ffc900 
+}
+
+button{
+    border-radius: 10px;
+}
+
+
+/* CSS IDs y Clase*/
+.hashtag{
+    color: #ffc900;
+}
+
+
+#experiencia{
+    background-color: #fff;
+    color: #333;
+}
+
+#portafolio{
+    border-top: 1px solid #ffc900;
+}
+
+.secion{
+    padding: 10px 100px 10px 100px;
+    margin-left: 0px;
+}
+
+.logo{
+    width: 30px;
+    padding-top: 0;
+}
+#redes{
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+
+#inicio{
+    background-image: url(../Imagenes/Fondo.jpg);
+    min-height: 140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+#sobremi h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+#sobremi .masinfo button{ 
+    background-color: #ffc900;
+    font-weight: 600;
+    padding: 10px 30px 10px 30px;
+    float: left;
+    margin-top: 15px;
+}
+
+
+
+/* Cartas de Portafolio*/
+
+.card{
+    width: 250px;
+    background-color: #191919;
+    border-radius: 15px;
+ 
+}
+
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 30px 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card h3{
+    color: #ffc900;
+}
+.card h4{
+    margin:0 5px 5px 0;
+}
+.card h3,.card h4,.card p,.card .masinfo{
+    padding: 0 15px;
+}
+.card .masinfo {
+    margin: 15px 0px 15px 0 px;
+    height: 26px;
+}
+.card .masinfo button{
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+.card .sep{
+    margin: 0 5px 5px 0;
+    border: 1px solid #ffc900;
+}
+
+.card img{
+    width: 250px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card button{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.card video, .card iframe{
+    border-radius: 15px;
+}
+
+/* Grid Sobre Mi*/
+
+#sobremi{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+#contacto{
+    background-color: #FFC900;
+}
+
+/* Carta de experiencia*/
+
+.cardexp{
+    background-color: #191919;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+    width: 700px;
+    margin-top: 15px;
+}
+.cardexp h2{
+    margin-bottom: 5px;
+}
+
+.cardexp h3{
+    margin-bottom: 20px;
+}
+.cardexp p{
+    margin-bottom: 20px;
+}
+
+.cardexp ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardexp li{
+    height: 30px;
+    list-style: none;
+}
+
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+/* Formulario*/
+
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.itemform label{
+    font-weight: 800;
+    color: #191919;
+}
+
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 1px solid #191919;
+}
+
+input[type="submit"]{
+    background-color: #191919;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    grid-column: 2/3;
+    justify-self: end;
+    
+}
+
+footer{
+    background-color: #191919;
+    height: 40px;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 25px;
+}
