@@ -1,0 +1,371 @@
+<!-- Things that i feel i need to change
+Change at the begining where it says Buld thing that actualy ships and shipped projects change it to something else -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesus Xibille — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">JX</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#achievements">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#extracurriculars">Activities</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-glow"></div>
+  <div class="hero-bg-glow2"></div>
+  <p class="hero-eyebrow">Available for internships &amp; new grad roles</p>
+  <h1>
+    <span class="name-grad">Jesus Xibille</span><br>
+    Software Engineer
+  </h1>
+  <p class="hero-subtitle">Backend · APIs · DevOps · QA Automation</p>
+  <div class="typer-wrap">
+    <span class="prompt">~/jesusxibille $</span>
+    <span id="typer-text"></span>
+    <span class="cursor"></span>
+  </div>
+  <p class="hero-desc">
+    CS student at Polytechnic University of Sinaloa (graduating Dec 2026) with two internships,
+    production deployments, and real metrics behind every project.
+    Trilingual: Spanish · English · Mandarin.
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn-primary">View Projects →</a>
+    <a href="#contact" class="btn-ghost">Get in Touch</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label reveal">// about me</p>
+  <h2 class="section-title reveal">Building things that <span>actually ship</span></h2>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a backend-focused software engineering student based in <strong>Mazatlán, Mexico</strong>, graduating December 2026. I've spent the last two years turning internships and side projects into production-grade systems — not just prototypes.</p>
+      <p>At <strong>Grex Tecnologías</strong> I built AI-powered invoice automation that cut processing errors by 23.5%. At <strong>Grupo RedPetroil</strong> I designed a Selenium QA framework that now covers 5+ internal systems. Between those, I've shipped a URL shortener, a Steam-inspired desktop app, and a fintech hackathon project for <strong>Capital One</strong>.</p>
+      <p>I care about clean architecture, measurable impact, and code that someone else can actually maintain.</p>
+      <div class="lang-badges">
+        <span class="lang-badge native">🇲🇽 Spanish — Native</span>
+        <span class="lang-badge b2">🇺🇸 English — C1</span>
+        <span class="lang-badge">🇨🇳 Mandarin — HSK3</span>
+      </div>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat-card">
+        <div class="stat-num">2</div>
+        <div class="stat-label">Engineering internships</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">4+</div>
+        <div class="stat-label">Production projects shipped</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">23.5%</div>
+        <div class="stat-label">Error reduction via AI automation</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Languages spoken</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <p class="section-label reveal">// education</p>
+  <h2 class="section-title reveal">Where I <span>studied</span></h2>
+  <div class="achievements-list">
+
+    <div class="achievement-card reveal">
+      <div class="achievement-icon">🎓</div>
+      <div>
+        <div class="achievement-meta">Polytechnic University of Sinaloa · Mazatlán, MX · Expected Dec 2026</div>
+        <div class="achievement-title">B.Eng. Information Technology</div>
+        <div class="achievement-desc">graduating September 2026 with a GPA of 9.4/10. My focus has been on backend systems and software architecture — the coursework in Data Structures, Databases, and Operating Systems directly shaped how I think about building things that actually work in production.
+        <div class="edu-courses reveal">
+          <span class="edu-tag">Data Structures &amp; Algorithms</span>
+          <span class="edu-tag">Object-Oriented Programming</span>
+          <span class="edu-tag">Database Management</span>
+          <span class="edu-tag">Networking</span>
+          <span class="edu-tag">Operating Systems</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label reveal">// projects</p>
+  <h2 class="section-title reveal">Things I've <span>built & shipped</span></h2>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🔗</div>
+        <div class="project-links">
+          <a href="https://github.com/ChuyiCrack" class="project-link" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="project-name">URL Shortener</div>
+      <div class="project-desc">Django-based URL shortening service featuring user authentication, session management, unique short-link generation, redirect handling, and per-user link history with a responsive HTML/CSS/JavaScript frontend.</div>
+      <div class="project-metric">&lt;10ms redirect resolution · collision-resistant</div>
+      <div class="project-tags">
+        <span class="tag">Django</span>
+        <span class="tag">SQLite</span>
+        <span class="tag cyan">Nginx</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🎮</div>
+        <div class="project-links">
+          <a href="https://github.com/ChuyiCrack" class="project-link" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="project-name">Staam</div>
+      <div class="project-desc">Steam-inspired desktop game manager built with Java + Swing. Led a 4-person team, defined system architecture, and delivered a full demo in 3 months using a Git-based parallel workflow.</div>
+      <div class="project-metric">4-person team · 3-month delivery</div>
+      <div class="project-tags">
+        <span class="tag">Java</span>
+        <span class="tag">Java Swing</span>
+        <span class="tag">MySQL</span>
+        <span class="tag cyan">Team Lead</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🛒</div>
+        <div class="project-links">
+          <a href="https://github.com/ChuyiCrack" class="project-link" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="project-name">E-Commerce Platform</div>
+      <div class="project-desc">Full-stack e-commerce platform with Stripe payments and a Redis-based recommendation engine. Deployed to a Ubuntu VPS with Nginx, Gunicorn, and systemd for zero-downtime rollouts.</div>
+      <div class="project-metric">Stripe payments · Redis recommendations</div>
+      <div class="project-tags">
+        <span class="tag">Django</span>
+        <span class="tag">Stripe</span>
+        <span class="tag">Redis</span>
+        <span class="tag cyan">Nginx</span>
+        <span class="tag cyan">Production</span>
+        <span class="tag cyan">Ubuntu VPS</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-header">
+        <div class="project-icon">🛒</div>
+        <div class="project-links">
+          <a href="https://github.com/ChuyiCrack" class="project-link" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="project-name">Poop Counter</div>
+      <div class="project-desc">Full-stack e-commerce platform with Stripe payments and a Redis-based recommendation engine. Deployed to a Ubuntu VPS with Nginx, Gunicorn, and systemd for zero-downtime rollouts.</div>
+      <div class="project-metric">Stripe payments · Redis recommendations</div>
+      <div class="project-tags">
+        <span class="tag">Django</span>
+        <span class="tag">Stripe</span>
+        <span class="tag">Redis</span>
+        <span class="tag cyan">Nginx</span>
+        <span class="tag cyan">Production</span>
+        <span class="tag cyan">Ubuntu VPS</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="achievements">
+  <p class="section-label reveal">// work experience</p>
+  <h2 class="section-title reveal">Where I've <span>made an impact</span></h2>
+  <div class="achievements-list">
+
+    <div class="achievement-card reveal">
+      <div class="achievement-icon">⚙️</div>
+      <div>
+        <div class="achievement-meta">Grex Tecnologías · Tepic, MX · Nov 2024 – Mar 2025</div>
+        <div class="achievement-title">Software Development Engineering Intern</div>
+        <div class="achievement-desc">Engineered an AI-powered invoice processing pipeline that reduced customs document errors by 23.5%, built and deployed a full e-commerce platform with Stripe payments and Redis recommendations, and owned production server configuration end-to-end on Ubuntu + Nginx + Gunicorn.</div>
+      </div>
+    </div>
+
+    <div class="achievement-card reveal">
+      <div class="achievement-icon">🔬</div>
+      <div>
+        <div class="achievement-meta">Grupo RedPetroil · Mazatlán, MX · Nov 2025 – Dec 2025</div>
+        <div class="achievement-title">Testing Engineering Intern</div>
+        <div class="achievement-desc">Designed and delivered a reusable Selenium WebDriver test framework covering 5+ internal web systems, cutting manual regression testing by ~40%. Standardized BDD documentation with Gherkin scenarios that let non-technical stakeholders review test coverage without reading code.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXTRACURRICULARS -->
+<section id="extracurriculars">
+  <p class="section-label reveal">// extracurricular activities</p>
+  <h2 class="section-title reveal">Beyond the <span>classroom</span></h2>
+  <div class="achievements-list">
+
+    <div class="achievement-card reveal">
+      <div class="achievement-icon">🏆</div>
+      <div>
+        <div class="achievement-meta">HackMTY 2025 · Tecnológico de Monterrey · Monterrey, MX</div>
+        <div class="achievement-title">Team Leader — Capital One Fintech Challenge</div>
+        <div class="achievement-desc">Led a 4-person team to build a gamified savings app in 24 hours for Capital One's challenge at Mexico's largest student hackathon. Users grow a virtual plant as they hit savings milestones. Built using Django, coordinated frontend/backend integration, and presented the live demo to industry judges.</div>
+        <a class="achievement-link" onclick="openModal()" href="HACKMTY2025.html">See more ↗</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label reveal">// technical skills</p>
+  <h2 class="section-title reveal">What I <span>work with</span></h2>
+  <div class="skills-grid">
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Languages</div>
+      <div class="skill-pills">
+        <span class="skill-pill hot">Python</span>
+        <span class="skill-pill">Java</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">HTML / CSS</span>
+        <span class="skill-pill">SQL</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Frameworks & Libraries</div>
+      <div class="skill-pills">
+        <span class="skill-pill hot">Django</span>
+        <span class="skill-pill hot">Django REST Framework</span>
+        <span class="skill-pill">Selenium WebDriver</span>
+        <span class="skill-pill">Java Swing</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Databases</div>
+      <div class="skill-pills">
+        <span class="skill-pill hot">SQLite</span>
+        <span class="skill-pill">MySQL</span>
+        <span class="skill-pill">Redis</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">DevOps & Tools</div>
+      <div class="skill-pills">
+        <span class="skill-pill hot">Linux (Ubuntu , Debian)</span>
+        <span class="skill-pill hot">Git</span>
+        <span class="skill-pill">Nginx</span>
+        <span class="skill-pill">Gunicorn</span>
+        <span class="skill-pill">Stripe API</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Testing & QA</div>
+      <div class="skill-pills">
+        <span class="skill-pill hot">Selenium</span>
+        <span class="skill-pill">Gherkin / BDD</span>
+        <span class="skill-pill">YAML</span>
+        <span class="skill-pill">QA Automation</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Human Languages</div>
+      <div class="skill-pills">
+        <span class="skill-pill hot">Spanish (Native)</span>
+        <span class="skill-pill">English (C1)</span>
+        <span class="skill-pill">Mandarin (HSK3)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- LeetCode progress -->
+  <div class="lc-wrap reveal">
+    <div class="lc-header">
+      <span class="lc-title">⚡ LeetCode Progress</span>
+      <a href="https://leetcode.com/u/chutoxibe/" target="_blank" class="lc-link">leetcode.com/u/chutoxibe/ ↗</a>
+    </div>
+    <div class="lc-bars">
+      <div class="lc-row">
+        <span class="lc-label">Easy</span>
+        <div class="lc-bar-bg"><div class="lc-bar easy" data-w="0"></div></div>
+        <span class="lc-count" id="lc-easy">-</span>
+      </div>
+      <div class="lc-row">
+        <span class="lc-label">Medium</span>
+        <div class="lc-bar-bg"><div class="lc-bar med" data-w="0"></div></div>
+        <span class="lc-count" id="lc-med">–</span>
+      </div>
+      <div class="lc-row">
+        <span class="lc-label">Hard</span>
+        <div class="lc-bar-bg"><div class="lc-bar hard" data-w="0"></div></div>
+        <span class="lc-count" id="lc-hard">–</span>
+      </div>
+    </div>
+    <p class="lc-note">Actively grinding Neetcode 150</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label reveal">// contact</p>
+  <h2 class="section-title reveal" style="text-align:center">Let's <span>work together</span></h2>
+  <p class="contact-lead reveal">
+    I'm open to software engineering internships, new grad roles, and interesting projects.
+    The best way to reach me is by email.
+  </p>
+  <div class="contact-links reveal">
+    <a href="mailto:jesus.xibille@gmail.com" class="contact-chip">
+      <span class="chip-icon">✉️</span>
+      <span class="contact-email">chutoxibe@gmail.com</span>
+    </a>
+    <a href="https://github.com/ChuyiCrack" target="_blank" class="contact-chip">
+      <span class="chip-icon">⌨️</span> GitHub
+    </a>
+    <a href="https://linkedin.com/in/jesusxibille" target="_blank" class="contact-chip">
+      <span class="chip-icon">💼</span> LinkedIn
+    </a>
+    <a href="https://leetcode.com/u/jesusxibille" target="_blank" class="contact-chip">
+      <span class="chip-icon">⚡</span> LeetCode
+    </a>
+  </div>
+  <a href="mailto:chutoxibe@gmail.com" class="btn-primary reveal" style="margin:0 auto;display:inline-flex;">
+    Send an email →
+  </a>
+</section>
+
+<footer>
+  <span>Built by Jesus Xibille · 2026 · Mazatlán, Mexico</span>
+</footer>
+
+<script src="script.js">
+  
+</script>
+</body>
+</html>
